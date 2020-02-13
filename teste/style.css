@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(240, 243, 247);
+}
+.cabecalho-principal{
+    background-color: rgb(220, 226, 231);
+    padding: 30px;
+}
+
+.container, .container2{
+
+    width: 90%;
+    margin: 0px auto;
+}
+
+.logo{
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu-link{
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 10px;
+	margin-bottom: 10px;
+	color:rgb(32, 62, 117);
+	text-decoration: none;
+	transition: .5s;
+    display: block;
+    border: 2px solid rgb(32, 62, 117);
+    border-radius: 5px;
+}
+
+.menu-link:hover{
+    color: rgb(197, 171, 21);
+    background-color: rgb(32, 62, 117);
+}
+
+.cabecalho-principal, .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+}
+
+/* AQUI COMEÇA O CSS DA MAIN */
+
+.conteudo-principal{
+    margin: 20px 30px 0px 30px;
+    background-color: rgb(32, 62, 117);
+}
+
+.tipo-usuario-aluno{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: rgb(220, 226, 231);
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 5px solid goldenrod;
+    width: 14.8%;
+}
+
+.menu-usuario{
+    padding: 30px 300px 30px 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 350px;
+    align-items: center;
+}
+
+.titulo-aluno, .titulo-professor{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(220, 226, 231);
+    margin-bottom: 2em;
+}
+
+.caixa-aluno, .caixa-professor{
+    text-align: center;
+    border: solid 2px whitesmoke;
+    padding: 10px;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.caixa-aluno:hover, .caixa-professor:hover{
+    border: solid 3px rgb(197, 171, 21);
+}
