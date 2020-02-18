@@ -6,7 +6,7 @@ body{
     padding: 30px;
 }
 
-.container, .container2{
+.container, .container2, .container3{
 
     width: 90%;
     margin: 0px auto;
@@ -87,8 +87,18 @@ body{
     padding: 10px;
     border-radius: 20px;
     transition: .5s;
+    box-shadow: 3px 2px rgb(6, 20, 34);
 }
 
 .caixa-aluno:hover, .caixa-professor:hover{
     border: solid 3px rgb(197, 171, 21);
+    box-shadow: 3px 2px rgb(197, 171, 21);
+}
+
+/* AQUI TERMINA O CSS DA MAIN */
+
+/* AQUI COMEÇA O CSS DO RODAPÉ */
+
+.rodape{
+    background-color: rgb(220, 226, 231);  
 }
